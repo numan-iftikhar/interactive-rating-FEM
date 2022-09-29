@@ -19,40 +19,42 @@
     class="flex flex-col items-center justify-center h-screen bg-veryDarkBlue text-sm"
   >
     <!-- Rating state start -->
-    <main class="ratingCard w-96 p-5 bg-darkBlue text-white rounded-2xl shadow-lg">
+    <main
+      class="ratingCard w-80 px-5 py-7 bg-darkBlue text-white rounded-2xl shadow-lg"
+    >
       <div
-        class="star w-10 h-10 flex items-center justify-center rounded-3xl bg-gray-700"
+        class="star mb-5 w-10 h-10 flex items-center justify-center rounded-3xl bg-gray-700"
       >
         <img src="images/icon-star.svg" alt="" />
       </div>
       <div>
-        <h1 class="text-xl font-semibold my-1 text-white">How did we do?</h1>
+        <h1 class="text-xl font-semibold my-2 text-white">How did we do?</h1>
         <p class="desc text-lightGrey">
           Please let us know how we did with your support request. All feedback
           is appreciated to help us improve our offering!
         </p>
       </div>
       <form action="#">
-        <div class="ratings my-2">
+        <div class="ratings my-6 flex justify-between">
           <label class="form-control">
             <input type="radio" name="radio" value="1" />
           </label>
           <label class="form-control">
-            <input type="radio" name="radio" value="2"/>
+            <input type="radio" name="radio" value="2" />
           </label>
           <label class="form-control">
-            <input type="radio" name="radio" value="3"/>
+            <input type="radio" name="radio" value="3" />
           </label>
           <label class="form-control">
-            <input type="radio" name="radio" value="4"/>
+            <input type="radio" name="radio" value="4" />
           </label>
           <label class="form-control">
-            <input type="radio" name="radio" value="5"/>
+            <input type="radio" name="radio" value="5" />
           </label>
         </div>
         <button
           type="button"
-          class="submitBtn w-full bg-orange-500 rounded-xl font-medium py-1 uppercase hover:bg-white hover:text-orange"
+          class="submitBtn w-full bg-orange-500 rounded-2xl font-medium py-2 uppercase hover:bg-white hover:text-orange"
         >
           Submit
         </button>
@@ -64,8 +66,16 @@
     <section
       class="thankYouCard hidden thankYou w-96 px-5 py-8 bg-darkBlue text-white rounded-2xl shadow-lg text-center"
     >
-      <img class="mx-auto mb-7" src="images/illustration-thank-you.svg" alt="" />
-      <p class="ratings bg-gray-700 w-fit mx-auto py-1 px-4 rounded-2xl mb-8 text-orange">You selected <span class="selectedRating">1</span> out of 5.</p>
+      <img
+        class="mx-auto mb-7"
+        src="images/illustration-thank-you.svg"
+        alt=""
+      />
+      <p
+        class="ratings bg-gray-700 w-fit mx-auto py-1 px-4 rounded-2xl mb-8 text-orange"
+      >
+        You selected <span class="selectedRating">1</span> out of 5.
+      </p>
       <h1 class="text-xl font-medium mb-3">Thank you!</h1>
       <p class="desc text-lightGrey">
         We appreciate you taking the time to give a rating. If you ever need
