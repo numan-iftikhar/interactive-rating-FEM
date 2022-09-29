@@ -2,27 +2,33 @@
 @tailwind components;
 @tailwind utilities;
 
-
 /* custom css */
 .form-control {
-    font-family: system-ui, sans-serif;
-    font-size: 1.5rem;
-    font-weight: bold;
-    line-height: 1.1;
+  font-family: system-ui, sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 1.1;
 }
 input[type="radio"] {
-    /* Add if not using autoprefixer */
-    -webkit-appearance: none;
-    appearance: none;
-    /* For iOS < 15 to remove gradient background */
-    background-color: #fff;
-    /* Not removed via appearance */
-    margin: 0;
-    font: inherit;
-    background-color: hsl(216, 12%, 54%);
-    width: 1.15em;
-    height: 1.15em;
-    border: 0.15em solid currentColor;
-    border-radius: 50%;
-    transform: translateY(-0.075em);
-  }
+  /* Add if not using autoprefixer */
+  -webkit-appearance: none;
+  appearance: none;
+  /* For iOS < 15 to remove gradient background */
+  background-color: #fff;
+  /* Not removed via appearance */
+  margin: 0;
+  font: inherit;
+  background-color: hsl(216, 12%, 54%);
+  width: 1.15em;
+  height: 1.15em;
+  border: 0.15em solid currentColor;
+  border-radius: 50%;
+  transform: translateY(-0.075em);
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
