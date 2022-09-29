@@ -35,23 +35,23 @@
       <form action="#">
         <div class="ratings my-2">
           <label class="form-control">
-            <input type="radio" name="radio" />
+            <input type="radio" name="radio" value="1" />
           </label>
           <label class="form-control">
-            <input type="radio" name="radio" />
+            <input type="radio" name="radio" value="2"/>
           </label>
           <label class="form-control">
-            <input type="radio" name="radio" />
+            <input type="radio" name="radio" value="3"/>
           </label>
           <label class="form-control">
-            <input type="radio" name="radio" />
+            <input type="radio" name="radio" value="4"/>
           </label>
           <label class="form-control">
-            <input type="radio" name="radio" />
+            <input type="radio" name="radio" value="5"/>
           </label>
         </div>
         <button
-          type="submit"
+          type="button"
           class="submitBtn w-full bg-orange-500 rounded-xl font-medium py-1 uppercase hover:bg-white hover:text-orange"
         >
           Submit
@@ -65,7 +65,7 @@
       class="thankYouCard hidden thankYou w-96 px-5 py-8 bg-darkBlue text-white rounded-2xl shadow-lg text-center"
     >
       <img class="mx-auto mb-7" src="images/illustration-thank-you.svg" alt="" />
-      <p class="ratings bg-gray-700 w-fit mx-auto py-1 px-4 rounded-2xl mb-8 text-orange">You selected <span>1</span> out of 5.</p>
+      <p class="ratings bg-gray-700 w-fit mx-auto py-1 px-4 rounded-2xl mb-8 text-orange">You selected <span class="selectedRating">1</span> out of 5.</p>
       <h1 class="text-xl font-medium mb-3">Thank you!</h1>
       <p class="desc text-lightGrey">
         We appreciate you taking the time to give a rating. If you ever need
