@@ -14,12 +14,13 @@
     <link rel="stylesheet" href="main.css" />
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Interactive rating component</title>
-    
   </head>
   <body class="flex items-center justify-center h-screen bg-veryDarkBlue">
     <!-- Rating state start -->
     <main class="w-96 p-5 bg-darkBlue text-white rounded-2xl shadow-lg">
-      <div class="star">star</div>
+      <div class="star w-8 h-8 flex items-center justify-center rounded-2xl bg-veryDarkBlue">
+        <img src="images/icon-star.svg" alt="">
+      </div>
       <div>
         <h1 class="text-xl font-semibold my-1 text-white">How did we do?</h1>
         <p class="desc text-lightGrey">
@@ -50,7 +51,12 @@
             5
           </label>
         </div>
-        <button type="submit" class="w-full bg-orange rounded-xl font-medium py-1 uppercase">Submit</button>
+        <button
+          type="submit"
+          class="w-full bg-orange-600 rounded-xl font-medium py-1 uppercase"
+        >
+          Submit
+        </button>
       </form>
     </main>
     <!-- Rating state end -->
@@ -63,7 +69,7 @@
     you ever need more support, don’t hesitate to get in touch! -->
 
     <!-- Thank you state end -->
-<!-- 
+    <!-- 
     <div class="attribution">
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
