@@ -11,7 +11,6 @@ submitBtn.addEventListener("click", (e) => {
   thankYouCard.classList.remove("hidden");
 });
 
-
 // dynamically update selected rating
 ratingBtns.forEach((btn) => {
   btn.addEventListener("click", () => {
