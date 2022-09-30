@@ -10,8 +10,8 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
-    <link rel="stylesheet" href="./main.css" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./main.css" />
     <title>Interactive rating component</title>
   </head>
   <body
@@ -33,23 +33,56 @@
           is appreciated to help us improve our offering!
         </p>
       </div>
-      <div>
-        <div class="ratings my-6">
-          <ul class="flex justify-between items-center">
-            <li><button role="radio" class="radio-btn transition ease-in-out duration-300">1</button></li>
-            <li><button role="radio" class="radio-btn transition ease-in-out duration-300">2</button></li>
-            <li><button role="radio" class="radio-btn transition ease-in-out duration-300">3</button></li>
-            <li><button role="radio" class="radio-btn transition ease-in-out duration-300">4</button></li>
-            <li><button role="radio" class="radio-btn transition ease-in-out duration-300">5</button></li>
-          </ul>
-        </div>
-        <button
-          type="button"
-          class="submitBtn w-full bg-orange-500 rounded-2xl font-medium py-2 uppercase hover:bg-white hover:text-orange transition ease-in-out duration-300"
-        >
-          Submit
-        </button>
+      <div class="ratings my-6">
+        <ul class="flex justify-between items-center">
+          <li>
+            <button
+              role="radio"
+              class="radio-btn transition ease-in-out duration-300"
+            >
+              1
+            </button>
+          </li>
+          <li>
+            <button
+              role="radio"
+              class="radio-btn transition ease-in-out duration-300"
+            >
+              2
+            </button>
+          </li>
+          <li>
+            <button
+              role="radio"
+              class="radio-btn transition ease-in-out duration-300"
+            >
+              3
+            </button>
+          </li>
+          <li>
+            <button
+              role="radio"
+              class="radio-btn transition ease-in-out duration-300"
+            >
+              4
+            </button>
+          </li>
+          <li>
+            <button
+              role="radio"
+              class="radio-btn transition ease-in-out duration-300"
+            >
+              5
+            </button>
+          </li>
+        </ul>
       </div>
+      <button
+        type="submit"
+        class="submitBtn w-full bg-orange-500 rounded-2xl font-medium py-2 uppercase hover:bg-white hover:text-orange transition ease-in-out duration-300"
+      >
+        Submit
+      </button>
     </main>
     <!-- Rating state end -->
 
@@ -65,7 +98,7 @@
       <p
         class="ratings bg-gray-700 w-fit mx-auto py-1 px-4 rounded-2xl mb-8 text-orange"
       >
-        You selected <span class="selectedRating">1</span> out of 5.
+        You selected <span class="selectedRating">0</span> out of 5.
       </p>
       <h1 class="text-xl font-medium mb-3">Thank you!</h1>
       <p class="desc text-lightGrey">
