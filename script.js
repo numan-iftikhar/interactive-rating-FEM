@@ -15,12 +15,10 @@ ratingBtns.forEach((btn) => {
 submitBtn.addEventListener("click", (e) => {
   e.preventDefault();
   //validating rating selection
-  if(ratingSpan.innerHTML > 0){
+  if (ratingSpan.innerHTML > 0) {
     ratingCard.classList.add("hidden");
     thankYouCard.classList.remove("hidden");
-  }
-  else{
-    alert("Please! select some rating.")
+  } else {
+    alert("Please! select some rating.");
   }
 });
-

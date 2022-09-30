@@ -12,8 +12,21 @@
     />
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="./main.css" />
+    <!-- Google Fonts API -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Overpass&display=swap"
+      rel="stylesheet"
+    />
+
     <title>Interactive rating component</title>
   </head>
+  <style>
+    body {
+      font-family: "Overpass", sans-serif;
+    }
+  </style>
   <body
     class="flex flex-col items-center justify-center h-screen bg-veryDarkBlue text-sm"
   >
@@ -78,7 +91,6 @@
         </ul>
       </div>
       <button
-        type="submit"
         class="submitBtn w-full bg-orange-500 rounded-2xl font-medium py-2 uppercase hover:bg-white hover:text-orange transition ease-in-out duration-300"
       >
         Submit
